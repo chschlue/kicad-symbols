@@ -399,34 +399,10 @@ K Half-duplex RS-485 RS-422
 F http://www.ti.com/lit/ds/symlink/sn65lbc176.pdf
 $ENDCMP
 #
-$CMP SN65LBC176D
-D Differential bus transiver, SOIC-8
-K Differential bus transiver
-F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
-$ENDCMP
-#
-$CMP SN65LBC176P
-D Differential bus transiver, DIP-8
-K Differential bus transiver
-F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
-$ENDCMP
-#
 $CMP SN65LBC176Q
 D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power, -40 to 125 °C
 K Half-duplex RS-485 RS-422
 F http://www.ti.com/lit/ds/symlink/sn65lbc176.pdf
-$ENDCMP
-#
-$CMP SN65LBC176QD
-D Differential bus transiver, SOIC-8
-K Differential bus transiver
-F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
-$ENDCMP
-#
-$CMP SN65LBC176QDR
-D Differential bus transiver, SOIC-8
-K Differential bus transiver
-F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SN75176
@@ -450,24 +426,6 @@ $ENDCMP
 $CMP SN75LBC176
 D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power
 K Half-duplex RS-485 RS-422
-F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
-$ENDCMP
-#
-$CMP SN75LBC176D
-D Differential bus transiver, SOIC-8
-K Differential bus transiver
-F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
-$ENDCMP
-#
-$CMP SN75LBC176P
-D Differential bus transiver, DIP-8
-K Differential bus transiver
-F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
-$ENDCMP
-#
-$CMP SNJ55LBC176JG
-D Differential bus transiver, ceramic DIP-8
-K Differential bus transiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
