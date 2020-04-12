@@ -57,15 +57,15 @@ K rs232 uart transceiver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
-$CMP ADM2481
+$CMP ADM2481xRW
 D Isolated RS485/RS422 Transceiver, Half-Duplex, 500kbps, SOIC-16W
-K RS485 Transceiver RS422 Transceiver
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential
 F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2481.pdf
 $ENDCMP
 #
-$CMP ADM2483
+$CMP ADM2483xRW
 D Isolated RS485/RS422 Transceiver, Half-Duplex, 500kbps, SOIC-16W
-K RS485 Transceiver RS422 Transceiver
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential
 F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf
 $ENDCMP
 #
@@ -631,12 +631,6 @@ $CMP SN75LBC176P
 D Differential bus transceiver, DIP-8
 K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
-$ENDCMP
-#
-$CMP SN75LBC184
-D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 250 kbps, TVS, DIP-8/SOIC-8
-K Half-duplex RS-485 RS-422 TVS ESD
-F http://www.ti.com/lit/ds/symlink/sn75lbc184.pdf
 $ENDCMP
 #
 $CMP SNJ55LBC176JG
