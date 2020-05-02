@@ -282,6 +282,24 @@ K audio jack receptacle stereo headphones TRRRS connector
 F ~
 $ENDCMP
 #
+$CMP AudioPlug2
+D Audio Jack, 2 Poles (Mono / TS)
+K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm
+F ~
+$ENDCMP
+#
+$CMP AudioPlug3
+D Audio Jack, 3 Poles (Stereo / TRS)
+K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm
+F ~
+$ENDCMP
+#
+$CMP AudioPlug4
+D Audio Jack, 4 Poles (Stereo / TRRS)
+K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm
+F ~
+$ENDCMP
+#
 $CMP Barrel_Jack
 D DC Barrel Jack
 K DC power barrel jack connector
@@ -302,6 +320,12 @@ $ENDCMP
 #
 $CMP Barrel_Jack_Switch_MountingPin
 D DC Barrel Jack with an internal switch and a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch_Pin3Ring
+D DC Barrel Jack with an internal switch
 K DC power barrel jack connector
 F ~
 $ENDCMP
@@ -886,6 +910,12 @@ $CMP Conn_PIC_ICSP_ICD
 D Microchip PIC In-Circuit Serial Programming/Debugging (ICSP/ICD) connector
 K icsp icd pic microchip
 F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
+$ENDCMP
+#
+$CMP Conn_ST_STDC14
+D ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART
+K ST STM32 Cortex Debug Connector ARM SWD JTAG
+F https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf
 $ENDCMP
 #
 $CMP Conn_WallPlug
@@ -1537,6 +1567,12 @@ F  ~
 $ENDCMP
 #
 $CMP SODIMM-200
+D SODIMM 200 Pin socket
+K SODIMM SO-DIMM DDR1 DDR2
+F ~
+$ENDCMP
+#
+$CMP SODIMM-200_Split
 D SODIMM 200 Pin socket
 K SODIMM SO-DIMM DDR1 DDR2
 F ~
