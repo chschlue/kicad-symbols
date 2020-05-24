@@ -36,6 +36,12 @@ K N-Channel MOSFET Dual Gate
 F http://www.onsemi.com/pub_link/Collateral/EN4423-D.PDF
 $ENDCMP
 #
+$CMP AO3400A
+D 30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf
+$ENDCMP
+#
 $CMP AO3401A
 D -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
@@ -1720,6 +1726,12 @@ $CMP FQP27P06
 D -27A Id, -60V Vds, QFET P-Channel MOSFET, TO-220
 K QFET P-Channel MOSFET
 F https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF
+$ENDCMP
+#
+$CMP IPB180N10S4-02
+D 180A Id, 100V Vds, OptiMOS-T2 N-Channel Power MOSFET, 2.5mOhm Ron, Qg (typ) 156nC, TO-263-6
+K OptiMOS-T2 Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-IPB180N10S4_02-DS-v01_00-en.pdf?fileId=db3a30433d1d0bbe013d2129cf8a2f88
 $ENDCMP
 #
 $CMP IPD50R380CE
